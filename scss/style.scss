@@ -1,0 +1,57 @@
+$bg-color: #1e1e1e;
+$on-white: #1e1e1e;
+$on-dark: #fff;
+$bg-overlay: rgba(30,30,30,0.8);
+
+body{
+background-color: $bg-color;
+
+}
+.navbar{
+
+  background-color: $on-white;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 0 grey;
+}
+header{
+  background: url('../img/header.jpg');
+  background-size: cover;
+  min-height: 700px;
+  .bg-overlay{
+background: $bg-overlay;
+position: absolute;
+top:0;
+left:0;
+width:100%;
+min-height:700px;
+  }
+.home-inner{
+  margin-top: 250px;
+}
+.btn-outline-light{
+
+}
+.btn-outline-light:hover{
+  color:$on-white;
+  font-weight: lighter;
+}
+
+
+  }
+  #about{
+    min-height: 700px;
+    background-color: $on-dark;
+  }
+  #producers{
+    min-height: 700px;
+    background-color: $on-white;
+  }
+  #artists{
+    min-height: 700px;
+    background-color: $on-dark;
+  }
+  #contact{
+    min-height: 700px;
+    background-color: $on-white;
+  }

@@ -1,0 +1,41 @@
+body {
+  background-color: #1e1e1e; }
+
+.navbar {
+  background-color: #1e1e1e;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 0 grey; }
+
+header {
+  background: url("../img/header.jpg");
+  background-size: cover;
+  min-height: 700px; }
+  header .bg-overlay {
+    background: rgba(30, 30, 30, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  header .home-inner {
+    margin-top: 250px; }
+  header .btn-outline-light:hover {
+    color: #1e1e1e;
+    font-weight: lighter; }
+
+#about {
+  min-height: 700px;
+  background-color: #fff; }
+
+#producers {
+  min-height: 700px;
+  background-color: #1e1e1e; }
+
+#artists {
+  min-height: 700px;
+  background-color: #fff; }
+
+#contact {
+  min-height: 700px;
+  background-color: #1e1e1e; }
