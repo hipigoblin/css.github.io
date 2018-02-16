@@ -3,13 +3,12 @@ body {
 
 .navbar {
   background-color: #1e1e1e;
-  width: 100%;
-  border-radius: 3px;
-  box-shadow: 0 0 0 grey; }
+  border-bottom: rgba(30, 30, 30, 0.2) 1px solid; }
 
 header {
-  background: url("../img/header.jpg");
+  background: url("../img/header.jpg") no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 700px; }
   header .bg-overlay {
     background: rgba(30, 30, 30, 0.8);
@@ -17,7 +16,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px; }
+    height: 700px; }
   header .home-inner {
     margin-top: 250px; }
   header .btn-outline-light:hover {
@@ -27,6 +26,11 @@ header {
 #about {
   min-height: 700px;
   background-color: #fff; }
+  #about .container {
+    margin-top: 70px; }
+    #about .container .btn-outline-light:hover {
+      color: #1e1e1e;
+      font-weight: bold; }
 
 #producers {
   min-height: 700px;
